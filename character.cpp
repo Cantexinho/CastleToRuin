@@ -5,7 +5,8 @@
 character::character() {
 
 	this->distanceTraveled = 0;
-
+	this->xPos = 0;
+	this->yPos = 0;
 	this->name = " ";
 	this->level = 0;
 	this->exp = 0;
@@ -25,6 +26,8 @@ character::~character() {
 void character::initialize(std::string name) {
 
 	this->distanceTraveled = 0;
+	this->xPos = 1;
+	this->yPos = 1;
 
 	this->name = name;
 	this->level = 1;
@@ -76,4 +79,17 @@ void character::levelUp() {
 					(400 * level)) / 3;
 		}
 	}
+}
+
+void character::setNorthXpos() {
+	--xPos;
+}
+void character::setSouthXpos() {
+	++xPos;
+}
+void character::setEastYpos() {
+	++yPos;
+}
+void character::setWestYpos() {
+	--yPos;
 }

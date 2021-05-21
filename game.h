@@ -1,11 +1,12 @@
 #pragma once
 
 #include "character.h"
-#include "functions.h"
+#include "banditai.h"
+#include "pilis.h"
+#include "kaimas.h"
 #include <stdlib.h>
 #include <windows.h>
 #include <ctime>
-#include "kelione.h"
 
 class game{
 private:
@@ -19,14 +20,19 @@ public:
 	character karvedys;
 	//kuprine
 	inventory kuprine;
-	//kelione
-	kelione zygis;
+	//kaimai
+	kaimas Truviskes;
+	//pilys
+	pilis Frankai;
+	//banditu stovyklos
+	banditai vandalai;
 
 	//Operators
 
 	//Funkcijos
 	void MainMenu();
 	void initializeGame();
+	void travel();
 
 
 	//Getters

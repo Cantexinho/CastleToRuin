@@ -7,7 +7,7 @@ banditai vandalai;
 
 int main() {
 
-    srand(time(NULL));
+    //srand(time(NULL));
     //system("cls");
     //std::cout << "Castle\n";
     //Sleep(800);

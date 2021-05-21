@@ -45,9 +45,6 @@
     <ClCompile Include="parduotuve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kelione.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
@@ -75,9 +72,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="parduotuve.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="kelione.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

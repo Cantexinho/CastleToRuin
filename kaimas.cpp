@@ -41,9 +41,10 @@ void kaimas::kaimasMenu() {
 		esiKaime = false;
 		break;
 	case 1: // parduotuve
-			pirklys.menuParduotuve();
+		pirklys.menuParduotuve();
 		break;
 	case 2: // verbuoti karius
+		std::cout << getKariai() << std::endl;
 		break;
 	case 3: // reiduoti
 		break;

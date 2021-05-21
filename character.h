@@ -7,6 +7,8 @@ class character
 {
 private:
 	int distanceTraveled;
+	int xPos;
+	int yPos;
 
 
 	std::string name;
@@ -28,6 +30,8 @@ public:
 	void levelUp();
 
 	//Getters
+	const int& getXPos() const { return this->xPos; }
+	const int& getYPos() const { return this->yPos; }
 	const std::string& getName() const { return this->name; }
 	const int& getLevel() const { return this->level; }
 	const int& getExp() const { return this->exp; }
@@ -38,8 +42,12 @@ public:
 	const int& getGinklai() const { return this->ginklai; }
 
 	//Setters
-
-
+	//set x position
+	void setNorthXpos();
+	void setSouthXpos();
+	//set y position
+	void setEastYpos();
+	void setWestYpos();
 
 };
 

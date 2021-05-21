@@ -146,7 +146,6 @@
     <ClCompile Include="inventory.cpp" />
     <ClCompile Include="item.cpp" />
     <ClCompile Include="kaimas.cpp" />
-    <ClCompile Include="kelione.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="parduotuve.cpp" />
     <ClCompile Include="pilis.cpp" />
@@ -159,7 +158,6 @@
     <ClInclude Include="inventory.h" />
     <ClInclude Include="item.h" />
     <ClInclude Include="kaimas.h" />
-    <ClInclude Include="kelione.h" />
     <ClInclude Include="parduotuve.h" />
     <ClInclude Include="pilis.h" />
   </ItemGroup>

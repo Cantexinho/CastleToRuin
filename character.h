@@ -1,6 +1,7 @@
 #pragma once
 
 #include "inventory.h"
+#include <windows.h>
 
 
 class character
@@ -28,6 +29,7 @@ public:
 	void initialize(const std::string name);
 	void printInfo() const;
 	void levelUp();
+	void ejimas();
 
 	//Getters
 	const int& getXPos() const { return this->xPos; }
@@ -42,6 +44,13 @@ public:
 	const int& getGinklai() const { return this->ginklai; }
 
 	//Setters
+	void setKariai(int kariuKiekis);
+	void setMaistas(int maistoKiekis);
+	void setGinklai(int ginkluKiekis);
+	void setExp(int kiekis, int x);
+	//void parduotMaista(int maistoKiekis);
+	void parduotiGinklus(int maistoKiekis);
+	void setAuksiniai(int kiekis, int x);
 	//set x position
 	void setNorthXpos();
 	void setSouthXpos();

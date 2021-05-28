@@ -23,6 +23,14 @@ character::~character() {
 }
 
 //funkcijos
+
+void character::ejimas() {
+
+	this->maistas -= static_cast<int>(kariai / 10);
+	this->auksiniai -= static_cast<int>(kariai / 10);
+
+}
+
 void character::initialize(std::string name) {
 
 	this->distanceTraveled = 0;
@@ -31,32 +39,33 @@ void character::initialize(std::string name) {
 
 	this->name = name;
 	this->level = 1;
-	this->exp = 0;
+	this->exp = 10000;
 	this->expNext = static_cast <int>
 		((50 * pow(level, 3)) -
 			(150 * pow(level, 2)) +
 			(400 * level)) / 3;
-	this->maistas = 20;
-	this->kariai = 10;
-	this->auksiniai = 100;
-	this->ginklai = 5;
+	this->maistas = 1000;
+	this->kariai = 300;
+	this->auksiniai = 10000;
+	this->ginklai = 300;
 
 }
+
+
 void character::printInfo() const {
 
-	std::cout << "-------------------------" << std::endl;
+	std::cout << "*************************" << std::endl;
 	std::cout << "Karvedzio informacija: " << std::endl;
 	std::cout << "Vardas: " << this->name << std::endl;
 	std::cout << "Lygis: " << this->level << std::endl;
 	std::cout << "Patirties taskai: " << this->exp << std::endl;
 	std::cout << "Patirties taskai iki kito lygio: " << this->expNext - this->exp << std::endl;
-	std::cout << "-------------------------" << std::endl;
+	std::cout << "*************************" << std::endl;
 	std::cout << "Maistas: " << this->maistas << std::endl;
 	std::cout << "Kariai: " << this->kariai << std::endl;
 	std::cout << "Auksiniai: " << this->auksiniai << std::endl;
 	std::cout << "Ginklai: " << this->ginklai << std::endl;
-	std::cout << "-------------------------" << std::endl;
-	std::cout << std::endl;
+	std::cout << "*************************" << std::endl;
 
 }
 
@@ -77,9 +86,53 @@ void character::levelUp() {
 				((50 * pow(level, 3)) -
 					(150 * pow(level, 2)) +
 					(400 * level)) / 3;
+			Sleep(100);
 		}
 	}
+	Sleep(2000);
+	system("cls");
 }
+
+void character::setExp(int kiekis, int x) {
+
+	this->exp += kiekis*x;
+
+}
+
+void character::setMaistas(int maistoKiekis) {
+
+	this->maistas += maistoKiekis;
+
+}
+void character::setAuksiniai(int kiekis, int x) {
+
+	this->auksiniai += kiekis * x;
+
+}
+
+void character::parduotiGinklus(int ginkluKiekis) {
+
+	this->ginklai -= ginkluKiekis;
+	this->auksiniai += ginkluKiekis * 3;
+
+}
+void character::setGinklai(int ginkluKiekis) {
+
+	this->ginklai += ginkluKiekis;
+
+}
+
+void character::setKariai(int kariuKiekis) {
+
+	this->kariai += kariuKiekis;
+
+}
+
+//void character::pirktiMaista(int maistoKiekis) {
+//
+//	this->maistas += maistoKiekis;
+//
+//}
 
 void character::setNorthXpos() {
 	--xPos;

@@ -480,7 +480,7 @@ void game::pilisMenu(int location) {
 		case 2: // verbuoti karius
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			if (location == 30) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Frankite.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Frankite.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -494,12 +494,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Frankite.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 31) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Germanite.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Germanite.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -513,12 +513,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Germanite.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 32) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Svedite.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Svedite.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -532,12 +532,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Svedite.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 33) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai| kariu skaicius: " << Italiano.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Italiano.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -551,12 +551,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Italiano.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 34) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Galiano.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Galiano.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -570,12 +570,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Galiano.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 35) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Vikingaites.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Vikingaites.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -589,12 +589,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Vikingaites.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 36) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Lituanica.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Lituanica.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -608,12 +608,12 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Lituanica.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 37) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Zemaiteskai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Zemaiteskai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -632,7 +632,7 @@ void game::pilisMenu(int location) {
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 38) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Ruskiai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Ruskiai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -646,12 +646,13 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Ruskiai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
+					
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 39) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai | kariu skaicius: " << Otomanijai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Otomanijai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
@@ -665,8 +666,8 @@ void game::pilisMenu(int location) {
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Otomanijai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 		break;
@@ -901,288 +902,290 @@ void game::kaimasMenu(int location) {
 		case 2: // verbuoti karius
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			if (location == 20) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Truviskes.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Truviskes.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Truviskes.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 21) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Barteliskes.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Barteliskes.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Barteliskes.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 22) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Teviskes.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Teviskes.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Teviskes.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 23) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Triogalai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Triogalai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Triogalai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 24) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Turipai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Turipai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Turipai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 25) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Karoliskes.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Karoliskes.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Karoliskes.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 26) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Pakalniskes.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Pakalniskes.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Pakalniskes.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 27) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Genininkai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Genininkai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Genininkai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 28) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Ariogala.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Ariogala.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Ariogala.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 29) {
-				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Zemzeniai.getVerbuotKariai() << std::endl;
 				std::cin >> verbuotiKariai;
 				if (Zemzeniai.getVerbuotKariai() < verbuotiKariai) {
 					std::cout << "Nera tiek kariu!" << std::endl;
 				}
-				else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
 					std::cout << "Neturite tiek auksiniu!" << std::endl;
 				}
 				else {
 					karvedys.setKariai(verbuotiKariai);
-					karvedys.setAuksiniai(-verbuotiKariai, 12);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
 					std::cout << std::endl;
 					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
 					Zemzeniai.setVerbuotKariai(-verbuotiKariai);
-					Sleep(800);
 				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 210) {
-			std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
-			std::cin >> verbuotiKariai;
-			if (Dumbirdai.getVerbuotKariai() < verbuotiKariai) {
-				std::cout << "Nera tiek kariu!" << std::endl;
-			}
-			else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
-				std::cout << "Neturite tiek auksiniu!" << std::endl;
-			}
-			else {
-				karvedys.setKariai(verbuotiKariai);
-				karvedys.setAuksiniai(-verbuotiKariai, 12);
-				std::cout << std::endl;
-				std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
-				Dumbirdai.setVerbuotKariai(-verbuotiKariai);
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Dumbirdai.getVerbuotKariai() << std::endl;
+				std::cin >> verbuotiKariai;
+				if (Dumbirdai.getVerbuotKariai() < verbuotiKariai) {
+					std::cout << "Nera tiek kariu!" << std::endl;
+				}
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
+					std::cout << "Neturite tiek auksiniu!" << std::endl;
+				}
+				else {
+					karvedys.setKariai(verbuotiKariai);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
+					std::cout << std::endl;
+					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
+					Dumbirdai.setVerbuotKariai(-verbuotiKariai);
+				}
 				Sleep(800);
-			}
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 211) {
-			std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
-			std::cin >> verbuotiKariai;
-			if (Likoniai.getVerbuotKariai() < verbuotiKariai) {
-				std::cout << "Nera tiek kariu!" << std::endl;
-			}
-			else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
-				std::cout << "Neturite tiek auksiniu!" << std::endl;
-			}
-			else {
-				karvedys.setKariai(verbuotiKariai);
-				karvedys.setAuksiniai(-verbuotiKariai, 12);
-				std::cout << std::endl;
-				std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
-				Likoniai.setVerbuotKariai(-verbuotiKariai);
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Likoniai.getVerbuotKariai() << std::endl;
+				std::cin >> verbuotiKariai;
+				if (Likoniai.getVerbuotKariai() < verbuotiKariai) {
+					std::cout << "Nera tiek kariu!" << std::endl;
+				}
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
+					std::cout << "Neturite tiek auksiniu!" << std::endl;
+				}
+				else {
+					karvedys.setKariai(verbuotiKariai);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
+					std::cout << std::endl;
+					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
+					Likoniai.setVerbuotKariai(-verbuotiKariai);
+				}
 				Sleep(800);
-			}
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 212) {
-			std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
-			std::cin >> verbuotiKariai;
-			if (Ceckes.getVerbuotKariai() < verbuotiKariai) {
-				std::cout << "Nera tiek kariu!" << std::endl;
-			}
-			else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
-				std::cout << "Neturite tiek auksiniu!" << std::endl;
-			}
-			else {
-				karvedys.setKariai(verbuotiKariai);
-				karvedys.setAuksiniai(-verbuotiKariai, 12);
-				std::cout << std::endl;
-				std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
-				Ceckes.setVerbuotKariai(-verbuotiKariai);
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Ceckes.getVerbuotKariai() << std::endl;
+				std::cin >> verbuotiKariai;
+				if (Ceckes.getVerbuotKariai() < verbuotiKariai) {
+					std::cout << "Nera tiek kariu!" << std::endl;
+				}
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
+					std::cout << "Neturite tiek auksiniu!" << std::endl;
+				}
+				else {
+					karvedys.setKariai(verbuotiKariai);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
+					std::cout << std::endl;
+					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
+					Ceckes.setVerbuotKariai(-verbuotiKariai);
+				}
 				Sleep(800);
-			}
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 213) {
-			std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
-			std::cin >> verbuotiKariai;
-			if (Grazdionys.getVerbuotKariai() < verbuotiKariai) {
-				std::cout << "Nera tiek kariu!" << std::endl;
-			}
-			else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
-				std::cout << "Neturite tiek auksiniu!" << std::endl;
-			}
-			else {
-				karvedys.setKariai(verbuotiKariai);
-				karvedys.setAuksiniai(-verbuotiKariai, 12);
-				std::cout << std::endl;
-				std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
-				Grazdionys.setVerbuotKariai(-verbuotiKariai);
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Grazdionys.getVerbuotKariai() << std::endl;
+				std::cin >> verbuotiKariai;
+				if (Grazdionys.getVerbuotKariai() < verbuotiKariai) {
+					std::cout << "Nera tiek kariu!" << std::endl;
+				}
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
+					std::cout << "Neturite tiek auksiniu!" << std::endl;
+				}
+				else {
+					karvedys.setKariai(verbuotiKariai);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
+					std::cout << std::endl;
+					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
+					Grazdionys.setVerbuotKariai(-verbuotiKariai);
+				}
 				Sleep(800);
-			}
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 214) {
-			std::cout << "Kiek kariu norite verbuoti? | kario kaina: 12 auksiniai" << std::endl;
-			std::cin >> verbuotiKariai;
-			if (Programintai.getVerbuotKariai() < verbuotiKariai) {
-				std::cout << "Nera tiek kariu!" << std::endl;
-			}
-			else if (karvedys.getAuksiniai() < verbuotiKariai * 12) {
-				std::cout << "Neturite tiek auksiniu!" << std::endl;
-			}
-			else {
-				karvedys.setKariai(verbuotiKariai);
-				karvedys.setAuksiniai(-verbuotiKariai, 12);
-				std::cout << std::endl;
-				std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
-				Programintai.setVerbuotKariai(-verbuotiKariai);
+				std::cout << "Kiek kariu norite verbuoti? | kario kaina: 8 auksiniai | kariu skaicius: " << Programintai.getVerbuotKariai() << std::endl;
+				std::cin >> verbuotiKariai;
+				if (Programintai.getVerbuotKariai() < verbuotiKariai) {
+					std::cout << "Nera tiek kariu!" << std::endl;
+					Sleep(800);
+				}
+				else if (karvedys.getAuksiniai() < verbuotiKariai * 8) {
+					std::cout << "Neturite tiek auksiniu!" << std::endl;
+					Sleep(800);
+				}
+				else {
+					karvedys.setKariai(verbuotiKariai);
+					karvedys.setAuksiniai(-verbuotiKariai, 8);
+					std::cout << std::endl;
+					std::cout << "Uzverbavote: " << verbuotiKariai << " karius" << std::endl;
+					Programintai.setVerbuotKariai(-verbuotiKariai);
+				}
 				Sleep(800);
-			}
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
@@ -1380,102 +1383,103 @@ void game::kaimasMenu(int location) {
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 210) {
-			isgyvenePriesuKariai = battle(Dumbirdai.getKariai(), Dumbirdai.getGinklai(), 2.5);
-			karvedys.setExp(Dumbirdai.getKariai() - isgyvenePriesuKariai, 3);
-			Dumbirdai.kariaiPoMusio(isgyvenePriesuKariai);
-			if (karvedys.getKariai() > 0) {
-				std::cout << "Laimejote!" << std::endl;
-				karvedys.setAuksiniai(Dumbirdai.getAuksiniai(), 1);
-				Dumbirdai.auksasPoMusio(0);
-				karvedys.setGinklai(Dumbirdai.getGinklai());
-				Dumbirdai.ginklaiPoMusio(0);
-				karvedys.setMaistas(Dumbirdai.getMaistas());
-				Dumbirdai.maistasPoMusio(0);
-			}
-			else if (isgyvenePriesuKariai > 0) {
-				std::cout << "n00b!" << std::endl;
-			}
-			Sleep(800);
+				isgyvenePriesuKariai = battle(Dumbirdai.getKariai(), Dumbirdai.getGinklai(), 2.5);
+				karvedys.setExp(Dumbirdai.getKariai() - isgyvenePriesuKariai, 3);
+				Dumbirdai.kariaiPoMusio(isgyvenePriesuKariai);
+				if (karvedys.getKariai() > 0) {
+					std::cout << "Laimejote!" << std::endl;
+					karvedys.setAuksiniai(Dumbirdai.getAuksiniai(), 1);
+					Dumbirdai.auksasPoMusio(0);
+					karvedys.setGinklai(Dumbirdai.getGinklai());
+					Dumbirdai.ginklaiPoMusio(0);
+					karvedys.setMaistas(Dumbirdai.getMaistas());
+					Dumbirdai.maistasPoMusio(0);
+				}
+				else if (isgyvenePriesuKariai > 0) {
+					std::cout << "n00b!" << std::endl;
+				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 211) {
-			isgyvenePriesuKariai = battle(Likoniai.getKariai(), Likoniai.getGinklai(), 2.5);
-			karvedys.setExp(Likoniai.getKariai() - isgyvenePriesuKariai, 3);
-			Likoniai.kariaiPoMusio(isgyvenePriesuKariai);
-			if (karvedys.getKariai() > 0) {
-				std::cout << "Laimejote!" << std::endl;
-				karvedys.setAuksiniai(Likoniai.getAuksiniai(), 1);
-				Likoniai.auksasPoMusio(0);
-				karvedys.setGinklai(Likoniai.getGinklai());
-				Likoniai.ginklaiPoMusio(0);
-				karvedys.setMaistas(Likoniai.getMaistas());
-				Likoniai.maistasPoMusio(0);
-			}
-			else if (isgyvenePriesuKariai > 0) {
-				std::cout << "n00b!" << std::endl;
-			}
-			Sleep(800);
+				isgyvenePriesuKariai = battle(Likoniai.getKariai(), Likoniai.getGinklai(), 2.5);
+				karvedys.setExp(Likoniai.getKariai() - isgyvenePriesuKariai, 3);
+				Likoniai.kariaiPoMusio(isgyvenePriesuKariai);
+				if (karvedys.getKariai() > 0) {
+					std::cout << "Laimejote!" << std::endl;
+					karvedys.setAuksiniai(Likoniai.getAuksiniai(), 1);
+					Likoniai.auksasPoMusio(0);
+					karvedys.setGinklai(Likoniai.getGinklai());
+					Likoniai.ginklaiPoMusio(0);
+					karvedys.setMaistas(Likoniai.getMaistas());
+					Likoniai.maistasPoMusio(0);
+				}
+				else if (isgyvenePriesuKariai > 0) {
+					std::cout << "n00b!" << std::endl;
+				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 212) {
-			isgyvenePriesuKariai = battle(Ceckes.getKariai(), Ceckes.getGinklai(), 2.5);
-			karvedys.setExp(Ceckes.getKariai() - isgyvenePriesuKariai, 3);
-			Ceckes.kariaiPoMusio(isgyvenePriesuKariai);
-			if (karvedys.getKariai() > 0) {
-				std::cout << "Laimejote!" << std::endl;
-				karvedys.setAuksiniai(Ceckes.getAuksiniai(), 1);
-				Ceckes.auksasPoMusio(0);
-				karvedys.setGinklai(Ceckes.getGinklai());
-				Ceckes.ginklaiPoMusio(0);
-				karvedys.setMaistas(Ceckes.getMaistas());
-				Ceckes.maistasPoMusio(0);
-			}
-			else if (isgyvenePriesuKariai > 0) {
-				std::cout << "n00b!" << std::endl;
-			}
-			Sleep(800);
+				isgyvenePriesuKariai = battle(Ceckes.getKariai(), Ceckes.getGinklai(), 2.5);
+				karvedys.setExp(Ceckes.getKariai() - isgyvenePriesuKariai, 3);
+				Ceckes.kariaiPoMusio(isgyvenePriesuKariai);
+				if (karvedys.getKariai() > 0) {
+					std::cout << "Laimejote!" << std::endl;
+					karvedys.setAuksiniai(Ceckes.getAuksiniai(), 1);
+					Ceckes.auksasPoMusio(0);
+					karvedys.setGinklai(Ceckes.getGinklai());
+					Ceckes.ginklaiPoMusio(0);
+					karvedys.setMaistas(Ceckes.getMaistas());
+					Ceckes.maistasPoMusio(0);
+				}
+				else if (isgyvenePriesuKariai > 0) {
+					std::cout << "n00b!" << std::endl;
+				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 213) {
-			isgyvenePriesuKariai = battle(Grazdionys.getKariai(), Grazdionys.getGinklai(), 2.5);
-			karvedys.setExp(Grazdionys.getKariai() - isgyvenePriesuKariai, 3);
-			Grazdionys.kariaiPoMusio(isgyvenePriesuKariai);
-			if (karvedys.getKariai() > 0) {
-				std::cout << "Laimejote!" << std::endl;
-				karvedys.setAuksiniai(Grazdionys.getAuksiniai(), 1);
-				Grazdionys.auksasPoMusio(0);
-				karvedys.setGinklai(Grazdionys.getGinklai());
-				Grazdionys.ginklaiPoMusio(0);
-				karvedys.setMaistas(Grazdionys.getMaistas());
-				Grazdionys.maistasPoMusio(0);
-			}
-			else if (isgyvenePriesuKariai > 0) {
-				std::cout << "n00b!" << std::endl;
-			}
-			Sleep(800);
+				isgyvenePriesuKariai = battle(Grazdionys.getKariai(), Grazdionys.getGinklai(), 2.5);
+				karvedys.setExp(Grazdionys.getKariai() - isgyvenePriesuKariai, 3);
+				Grazdionys.kariaiPoMusio(isgyvenePriesuKariai);
+				if (karvedys.getKariai() > 0) {
+					std::cout << "Laimejote!" << std::endl;
+					karvedys.setAuksiniai(Grazdionys.getAuksiniai(), 1);
+					Grazdionys.auksasPoMusio(0);
+					karvedys.setGinklai(Grazdionys.getGinklai());
+					Grazdionys.ginklaiPoMusio(0);
+					karvedys.setMaistas(Grazdionys.getMaistas());
+					Grazdionys.maistasPoMusio(0);
+				}
+				else if (isgyvenePriesuKariai > 0) {
+					std::cout << "n00b!" << std::endl;
+				}
+				Sleep(800);
 			}
 //88888888888888888888888888888888888888888888888888888888888888888888888888888
 			else if (location == 214) {
-			isgyvenePriesuKariai = battle(Programintai.getKariai(), Programintai.getGinklai(), 2.5);
-			karvedys.setExp(Programintai.getKariai() - isgyvenePriesuKariai, 3);
-			Programintai.kariaiPoMusio(isgyvenePriesuKariai);
-			if (karvedys.getKariai() > 0) {
-				std::cout << "Laimejote!" << std::endl;
-				karvedys.setAuksiniai(Programintai.getAuksiniai(), 1);
-				Programintai.auksasPoMusio(0);
-				karvedys.setGinklai(Programintai.getGinklai());
-				Programintai.ginklaiPoMusio(0);
-				karvedys.setMaistas(Programintai.getMaistas());
-				Programintai.maistasPoMusio(0);
-			}
-			else if (isgyvenePriesuKariai > 0) {
-				std::cout << "n00b!" << std::endl;
-			}
-			Sleep(800);
+				isgyvenePriesuKariai = battle(Programintai.getKariai(), Programintai.getGinklai(), 2.5);
+				karvedys.setExp(Programintai.getKariai() - isgyvenePriesuKariai, 3);
+				Programintai.kariaiPoMusio(isgyvenePriesuKariai);
+				if (karvedys.getKariai() > 0) {
+					std::cout << "Laimejote!" << std::endl;
+					karvedys.setAuksiniai(Programintai.getAuksiniai(), 1);
+					Programintai.auksasPoMusio(0);
+					karvedys.setGinklai(Programintai.getGinklai());
+					Programintai.ginklaiPoMusio(0);
+					karvedys.setMaistas(Programintai.getMaistas());
+					Programintai.maistasPoMusio(0);
+				}
+				else if (isgyvenePriesuKariai > 0) {
+					std::cout << "n00b!" << std::endl;
+				}
+				Sleep(800);
 			}
 			break;
 		default:
 			std::cout << "Tokio pasirinkimo nera" << std::endl;
+			Sleep(800);
 		}
 	}
 	system("cls");
@@ -1537,9 +1541,9 @@ Truviskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Truviskes.setMaistas(-pirktasKiekis);
 						Truviskes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1558,9 +1562,9 @@ Truviskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Truviskes.setPirktGinklai(-pirktasKiekis);
 						Truviskes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1596,9 +1600,9 @@ Barteliskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Barteliskes.setMaistas(-pirktasKiekis);
 						Barteliskes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1617,9 +1621,9 @@ Barteliskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Barteliskes.setPirktGinklai(-pirktasKiekis);
 						Barteliskes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1655,9 +1659,9 @@ Teviskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Teviskes.setMaistas(-pirktasKiekis);
 						Teviskes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1676,9 +1680,9 @@ Teviskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Teviskes.setPirktGinklai(-pirktasKiekis);
 						Teviskes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1714,9 +1718,9 @@ Triogalai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Triogalai.setMaistas(-pirktasKiekis);
 						Triogalai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1735,9 +1739,9 @@ Triogalai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Triogalai.setPirktGinklai(-pirktasKiekis);
 						Triogalai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1773,9 +1777,9 @@ Turipai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Turipai.setMaistas(-pirktasKiekis);
 						Turipai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1794,9 +1798,9 @@ Turipai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Turipai.setPirktGinklai(-pirktasKiekis);
 						Turipai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1832,9 +1836,9 @@ Karoliskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Karoliskes.setMaistas(-pirktasKiekis);
 						Karoliskes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1853,9 +1857,9 @@ Karoliskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Karoliskes.setPirktGinklai(-pirktasKiekis);
 						Karoliskes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1891,9 +1895,9 @@ Pakalniskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Pakalniskes.setMaistas(-pirktasKiekis);
 						Pakalniskes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1912,9 +1916,9 @@ Pakalniskes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Pakalniskes.setPirktGinklai(-pirktasKiekis);
 						Pakalniskes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -1950,9 +1954,9 @@ Genininkai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Genininkai.setMaistas(-pirktasKiekis);
 						Genininkai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -1971,9 +1975,9 @@ Genininkai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Genininkai.setPirktGinklai(-pirktasKiekis);
 						Genininkai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2009,9 +2013,9 @@ Ariogala
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Ariogala.setMaistas(-pirktasKiekis);
 						Ariogala.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2030,9 +2034,9 @@ Ariogala
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Ariogala.setPirktGinklai(-pirktasKiekis);
 						Ariogala.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2068,9 +2072,9 @@ Zemzeniai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Zemzeniai.setMaistas(-pirktasKiekis);
 						Zemzeniai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2089,9 +2093,9 @@ Zemzeniai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Zemzeniai.setPirktGinklai(-pirktasKiekis);
 						Zemzeniai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2127,9 +2131,9 @@ Dumbirdai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Dumbirdai.setMaistas(-pirktasKiekis);
 						Dumbirdai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2148,9 +2152,9 @@ Dumbirdai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Dumbirdai.setPirktGinklai(-pirktasKiekis);
 						Dumbirdai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2186,9 +2190,9 @@ Likoniai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Likoniai.setMaistas(-pirktasKiekis);
 						Likoniai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2207,9 +2211,9 @@ Likoniai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Likoniai.setPirktGinklai(-pirktasKiekis);
 						Likoniai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2245,9 +2249,9 @@ Ceckes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Ceckes.setMaistas(-pirktasKiekis);
 						Ceckes.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2266,9 +2270,9 @@ Ceckes
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Ceckes.setPirktGinklai(-pirktasKiekis);
 						Ceckes.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2304,9 +2308,9 @@ Grazdionys
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Grazdionys.setMaistas(-pirktasKiekis);
 						Grazdionys.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2325,9 +2329,9 @@ Grazdionys
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Grazdionys.setPirktGinklai(-pirktasKiekis);
 						Grazdionys.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2363,9 +2367,9 @@ Programintai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Programintai.setMaistas(-pirktasKiekis);
 						Programintai.setAuksas(pirktasKiekis, 3);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2384,9 +2388,9 @@ Programintai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Programintai.setPirktGinklai(-pirktasKiekis);
 						Programintai.setAuksas(pirktasKiekis, 5);
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2421,11 +2425,10 @@ Frankai
 						std::cout << std::endl;
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Frankite.setMaistas(-pirktasKiekis);
-						Frankite.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
+						Frankite.setAuksas(pirktasKiekis, 5);;
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2444,10 +2447,9 @@ Frankai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Frankite.setPirktGinklai(-pirktasKiekis);
 						Frankite.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2483,10 +2485,9 @@ Germanite
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Germanite.setMaistas(-pirktasKiekis);
 						Germanite.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2505,10 +2506,9 @@ Germanite
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Germanite.setPirktGinklai(-pirktasKiekis);
 						Germanite.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2544,10 +2544,9 @@ Svedite
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Svedite.setMaistas(-pirktasKiekis);
 						Svedite.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2566,10 +2565,9 @@ Svedite
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Svedite.setPirktGinklai(-pirktasKiekis);
 						Svedite.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2605,10 +2603,9 @@ Italiano
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Italiano.setMaistas(-pirktasKiekis);
 						Italiano.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2627,10 +2624,9 @@ Italiano
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Italiano.setPirktGinklai(-pirktasKiekis);
 						Italiano.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2666,10 +2662,9 @@ Galiano
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Galiano.setMaistas(-pirktasKiekis);
 						Galiano.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2688,10 +2683,9 @@ Galiano
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Galiano.setPirktGinklai(-pirktasKiekis);
 						Galiano.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2727,10 +2721,9 @@ Vikingaites
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Vikingaites.setMaistas(-pirktasKiekis);
 						Vikingaites.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2749,10 +2742,9 @@ Vikingaites
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Vikingaites.setPirktGinklai(-pirktasKiekis);
 						Vikingaites.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2788,10 +2780,9 @@ Lituanica
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Lituanica.setMaistas(-pirktasKiekis);
 						Lituanica.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2810,10 +2801,9 @@ Lituanica
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Lituanica.setPirktGinklai(-pirktasKiekis);
 						Lituanica.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2849,10 +2839,9 @@ Zemaiteskai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Zemaiteskai.setMaistas(-pirktasKiekis);
 						Zemaiteskai.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2871,10 +2860,9 @@ Zemaiteskai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Zemaiteskai.setPirktGinklai(-pirktasKiekis);
 						Zemaiteskai.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2910,10 +2898,9 @@ Ruskiai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Ruskiai.setMaistas(-pirktasKiekis);
 						Ruskiai.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2932,10 +2919,9 @@ Ruskiai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Ruskiai.setPirktGinklai(-pirktasKiekis);
 						Ruskiai.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -2971,10 +2957,9 @@ Otomanijai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " maisto" << std::endl;
 						Otomanijai.setMaistas(-pirktasKiekis);
 						Otomanijai.setAuksas(pirktasKiekis, 5);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				//---------------------------------------------------------------
 				else if (pasirinkPirkt == 2) {
@@ -2993,10 +2978,9 @@ Otomanijai
 						std::cout << "Nusipirkote: " << pirktasKiekis << " ginklu" << std::endl;
 						Otomanijai.setPirktGinklai(-pirktasKiekis);
 						Otomanijai.setAuksas(pirktasKiekis, 7);
-						//}
-						Sleep(800);
-						system("cls");
 					}
+					Sleep(800);
+					system("cls");
 				}
 				else if (pasirinkPirkt == 0) {
 					break;
@@ -3442,8 +3426,8 @@ Otomanijai
 						Otomanijai.setAuksas(-parduotasKiekis, 2);
 					}
 				}
-					Sleep(800);
-					system("cls");
+			Sleep(800);
+			system("cls");
 			}
 			else if (pasirinkParduot == 2) {
 //Truviskes			//---------------------------------------------------------------

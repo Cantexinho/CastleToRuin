@@ -39,15 +39,15 @@ void character::initialize(std::string name) {
 
 	this->name = name;
 	this->level = 1;
-	this->exp = 10000;
+	this->exp = 0;
 	this->expNext = static_cast <int>
 		((50 * pow(level, 3)) -
 			(150 * pow(level, 2)) +
 			(400 * level)) / 3;
-	this->maistas = 1000;
-	this->kariai = 300;
-	this->auksiniai = 10000;
-	this->ginklai = 300;
+	this->maistas = 100;
+	this->kariai = 50;
+	this->auksiniai = 300;
+	this->ginklai = 10;
 
 }
 

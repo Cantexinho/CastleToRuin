@@ -1,4 +1,3 @@
-#include "functions.h"
 #include "game.h"
 
 kaimas Truviskes;
@@ -7,17 +6,17 @@ banditai vandalai;
 
 int main() {
 
-    //srand(time(NULL));
-    //system("cls");
-    //std::cout << "Castle\n";
-    //Sleep(800);
-    //system("cls");
-    //std::cout << "Castle To\n";
-    //Sleep(800);
-    //system("cls");
-    //std::cout << "Castle To Ruin\n";
-    //Sleep(800);
-    //system("cls");
+    srand(time(NULL));
+    system("cls");
+    std::cout << "Castle\n";
+    Sleep(800);
+    system("cls");
+    std::cout << "Castle To\n";
+    Sleep(800);
+    system("cls");
+    std::cout << "Castle To Ruin\n";
+    Sleep(800);
+    system("cls");
 
     game Game;
     Game.initializeGame();

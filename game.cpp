@@ -1116,6 +1116,7 @@ void game::kaimasMenu(int location) {
 				}
 				Sleep(800);
 			}
+			break;
 		case 3: // reiduoti
 			if (location == 20) {
 				isgyvenePriesuKariai = battle(Truviskes.getKariai(), Truviskes.getGinklai(), 2.5);
